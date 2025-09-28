@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@600;700&display=swap');
+
+/* Theme */
+:root {
+  --primary: #0ea5e9; /* sky-500 */
+  --primary-700: #0369a1;
+  --text: #0b1324; /* deep slate */
+  --muted: #5b6b82; /* muted slate */
+  --bg: #ffffff;
+}
+
+html, body {
+  font-family: 'Lato', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+
+h1, h2, h3, .display-5 { font-family: 'Poppins', 'Lato', sans-serif; letter-spacing: .2px; }
+
+.text-primary { color: var(--primary) !important; }
+.bg-primary { background-color: var(--primary) !important; }
+.btn { border-radius: 999px; padding: .7rem 1.25rem; font-weight: 700; }
+.btn-primary { background-color: var(--primary); border-color: var(--primary); }
+.btn-primary:hover { background-color: var(--primary-700); border-color: var(--primary-700); }
+.btn-outline-primary { color: var(--primary); border-color: var(--primary); }
+.btn-outline-primary:hover { background-color: var(--primary); color: #fff; }
+
+/* Navbar distinct style */
+.site-header .navbar { transition: background-color .2s ease; }
+.site-header .navbar.navbar-dark .nav-link { color: rgba(255,255,255,.9); }
+.site-header .navbar.navbar-dark .nav-link.active { color: #fff !important; }
+
+/* Hero distinct gradient */
+.hero-section { position: relative; }
+.hero-section.gradient {
+  background: linear-gradient(135deg, #0ea5e9 0%, #22d3ee 100%);
+  color: #fff;
+}
+.hero-section .hero-image { max-height: 460px; object-fit: cover; border-radius: 24px; }
+
+/* Cards */
+.card { border-radius: 1.25rem; overflow: hidden; }
+.card-img-top { border-top-left-radius: 1.25rem; border-top-right-radius: 1.25rem; }
+.badge-soft { background: #e0f2fe; color: var(--primary); border-radius: 999px; padding: .35rem .7rem; font-weight: 700; }
+
+/* Sections */
+.section-alt { background: #f8fafc; }
+
+/* Forms */
+.form-control:focus { box-shadow: 0 0 0 .25rem rgba(14, 165, 233, .25); border-color: var(--primary); }
+
+/* Travel cards */
+.card-trip .card-img-top { height: 220px; width: 100%; object-fit: cover; }
+.card-trip .card-img-overlay {
+  background: linear-gradient(to top, rgba(11,19,36,.55) 0%, rgba(11,19,36,0) 70%);
+  border-top-left-radius: 1.25rem; border-top-right-radius: 1.25rem;
+}
+.card-trip .card-footer { background: transparent; border: 0; }

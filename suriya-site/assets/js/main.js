@@ -1,10 +1,8 @@
-// App JS
+// App JS for Suriya site
 (function () {
-  // Update footer year
   const yEl = document.getElementById('year');
   if (yEl) yEl.textContent = new Date().getFullYear();
 
-  // Contact form basic handler (demo only)
   const form = document.querySelector('form');
   if (form) {
     form.addEventListener('submit', function (e) {
