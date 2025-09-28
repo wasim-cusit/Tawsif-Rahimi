@@ -1,0 +1,49 @@
+/* Theme */
+:root {
+  --primary: #4f46e5; /* indigo-600 */
+  --primary-600: #4f46e5;
+  --primary-700: #4338ca;
+  --text: #1f2937; /* gray-800 */
+  --muted: #6b7280; /* gray-500 */
+  --bg: #ffffff;
+}
+
+html, body {
+  font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  color: var(--text);
+}
+
+.text-primary { color: var(--primary) !important; }
+.bg-primary { background-color: var(--primary) !important; }
+.btn-primary { background-color: var(--primary); border-color: var(--primary); }
+.btn-outline-primary { color: var(--primary); border-color: var(--primary); }
+.btn-outline-primary:hover { background-color: var(--primary); color: #fff; }
+
+/* Header */
+.site-header .navbar-brand span { letter-spacing: 0.3px; }
+.site-header .navbar .nav-link { font-weight: 500; }
+.site-header .navbar .nav-link.active { color: var(--primary) !important; }
+
+/* Sections */
+.hero-section .hero-image { max-height: 420px; object-fit: cover; }
+.icon-box { width: 48px; height: 48px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 1.25rem; }
+
+.skill-pill { background: #f1f5f9; border: 1px solid #e2e8f0; padding: 10px 14px; border-radius: 24px; display: inline-block; font-weight: 600; }
+
+/* Footer */
+.site-footer { background: #fff; }
+
+/* Utilities */
+.py-lg-6 { padding-top: 5rem !important; padding-bottom: 5rem !important; }
+
+/* Forms */
+.form-control:focus { box-shadow: 0 0 0 .25rem rgba(79, 70, 229, .25); border-color: var(--primary); }
+
+/* Cards */
+.card { border-radius: 1rem; }
+.card-img-top { border-top-left-radius: 1rem; border-top-right-radius: 1rem; }
+
+/* Responsive tweaks */
+@media (max-width: 576px) {
+  .display-5 { font-size: 1.8rem; }
+}

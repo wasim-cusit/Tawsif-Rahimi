@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="800" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Portrait of Tawsif Rahimi (illustration)">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eef2ff"/>
+      <stop offset="100%" stop-color="#e0e7ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <g transform="translate(100,120)">
+    <rect x="60" y="60" width="480" height="560" rx="40" fill="#ffffff" stroke="#c7d2fe"/>
+    <circle cx="300" cy="240" r="110" fill="#dbeafe"/>
+    <circle cx="300" cy="230" r="90" fill="#93c5fd"/>
+    <circle cx="270" cy="220" r="10" fill="#1f2937"/>
+    <circle cx="330" cy="220" r="10" fill="#1f2937"/>
+    <rect x="270" y="260" width="60" height="14" rx="7" fill="#1f2937" opacity=".8"/>
+    <rect x="160" y="380" width="280" height="18" rx="9" fill="#a5b4fc"/>
+    <rect x="140" y="420" width="320" height="14" rx="7" fill="#c7d2fe"/>
+    <rect x="120" y="450" width="360" height="14" rx="7" fill="#c7d2fe"/>
+    <rect x="100" y="480" width="400" height="14" rx="7" fill="#c7d2fe"/>
+    <rect x="220" y="520" width="160" height="40" rx="12" fill="#4f46e5"/>
+  </g>
+  <text x="400" y="92" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="36" fill="#4338ca">Tawsif Rahimi</text>
+</svg>
